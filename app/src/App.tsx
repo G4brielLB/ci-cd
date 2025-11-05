@@ -12,17 +12,17 @@ function App() {
 
   const titles: Title[] = [
     { year: 1923, competition: 'Campeonato Carioca', description: 'Primeiro título da história' },
-    { year: 1998, competition: 'Copa Libertadores', description: 'Campeão invicto' },
+    { year: 1974, competition: 'Campeonato Brasileiro', description: 'Primeiro título brasileiro' },
+    { year: 1997, competition: 'Campeonato Brasileiro', description: 'Bicampeão brasileiro' },
+    { year: 1998, competition: 'Copa Libertadores', description: 'Campeão invicto da América' },
     { year: 2000, competition: 'Copa Mercosul', description: 'Conquista internacional' },
-    { year: 2011, competition: 'Copa do Brasil', description: 'Primeiro título nacional de copas' },
-    { year: 2024, competition: 'Campeonato Brasileiro', description: 'Último título da Série A' },
   ]
 
   const idols = [
+    { name: 'Roberto Dinamite', position: 'Atacante', period: '1971-1993' },
     { name: 'Romário', position: 'Atacante', period: '1985-1988, 1999-2002' },
     { name: 'Edmundo', position: 'Atacante', period: '1997-2000, 2002-2004' },
     { name: 'Juninho Pernambucano', position: 'Meia', period: '1993-2001' },
-    { name: 'Roberto Dinamite', position: 'Atacante', period: '1971-1993' },
     { name: 'Barbosa', position: 'Goleiro', period: '1945-1962' },
   ]
 
